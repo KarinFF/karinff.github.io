@@ -38,6 +38,7 @@ a:hover {
 }
 
 img {
+  margin: 5px 5px 5px 5px;
   border-radius: 50%;
   width: auto;
   height: 150px;
