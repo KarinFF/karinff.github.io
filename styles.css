@@ -84,11 +84,27 @@ img {
 @media (min-width:600px) and (max-width: 900px) {
   .contentholder {
     width: 50%;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  img {
+    margin-top: 70px;
   }
 }
 /*Mobile*/
 @media (max-width:600px){
   .contentholder {
     width: 100%;
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .footerstyle {
+  font-size: 20px;
   }
 }
