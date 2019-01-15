@@ -5,13 +5,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #88ab71;
+  /* background-color: #88ab71; */
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
@@ -20,18 +20,17 @@ a:hover {
 
 h1 {
   font-size: 60px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   font-size: 30px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
   width: 100%;
   height: auto;
  }
@@ -52,23 +51,25 @@ img {
 .main {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  align-items: left;
+  width: 700px;
   height: auto;
+  margin: 0 auto;
 }
 
 .contentholder {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: nowrap;
-  height: 600px;
-  width: auto;
+  justify-content: flex-start;
+  padding-left: 5px;
+  padding-bottom: 50px;
 }
 
 .details {
   width: 700px;
   height: auto;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -89,6 +90,7 @@ img {
   }
   img {
     margin-top: 70px;
+    transform: rotate(90deg);
   }
 }
 /*Mobile*/
@@ -106,5 +108,8 @@ img {
   }
   .footerstyle {
   font-size: 20px;
+  }
+  img {
+    transform: rotate(90deg);
   }
 }
